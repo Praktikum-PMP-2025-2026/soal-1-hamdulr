@@ -7,6 +7,9 @@
  * 
  */
 
+#include <stdio.h>
+#include <string.h>
+
 int jumlahdigit(int n){
     int sum = 0;
     int c = n;
@@ -16,11 +19,10 @@ int jumlahdigit(int n){
         sum+=cur;
         c = c/10;
     }
+    //printf("sum of %d = %d\n",n,sum);
     return sum;
 }
 
-#include <stdio.h>
-#include <string.h>
   
 int main() {
     int N;
