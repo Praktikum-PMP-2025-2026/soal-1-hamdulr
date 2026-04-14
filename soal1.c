@@ -38,9 +38,9 @@ int main() {
         else if(i%2==0){
             printf("KUNING\n");
         }
-        else if(jumlahdigit(i)%2 == 0){
-            printf("HIJAU\n");
-        }
+        //else if(i>=10 && jumlahdigit(i)%2 == 0){
+          //  printf("HIJAU\n");
+        //}
         else{
             printf("%d\n",i);
         }
